@@ -1,0 +1,15 @@
+[run]
+branch = True
+source =
+    {{ cookiecutter.module_name }}
+
+
+[paths]
+source =
+   src/{{ cookiecutter.module_name }}
+   .tox/*/lib/python*/site-packages/{{ cookiecutter.module_name }}
+
+
+[report]
+show_missing = True
+precision = 2

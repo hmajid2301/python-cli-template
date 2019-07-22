@@ -1,0 +1,12 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+name = "pypi"
+
+[packages]
+click = "==7.0"
+
+[dev-packages]
+tox = "==3.9.0"
+
+[requires]
+python_version = {{ cookiecutter.python_version }}

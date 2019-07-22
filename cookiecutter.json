@@ -1,0 +1,17 @@
+{
+    "author": "",
+    "author_email": "",
+    "python_version": [
+        "3.7",
+        "3.6",
+        "3.5"
+    ],
+    "project_name": "",
+    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "module_name": "{{ cookiecutter.package_name.replace('-', '_') }}",
+    "version": "0.1.0",
+    "project_description": "",
+    "project_short_description": "",
+    "keywords": "",
+    "project_git_url": ""
+}
