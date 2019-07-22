@@ -9,6 +9,7 @@ services:
 
 stages:
   - test
+  - pre-publish
   - publish
 
 
@@ -26,8 +27,9 @@ test:code-formatter:
     - make code-formatter-check
 
 
-publish-package:staging:
-  stage: publish
+
+publish_package:staging:
+  stage: pre-publish
   only:
     - master
   variables:
@@ -36,7 +38,7 @@ publish-package:staging:
   script:
     - pip install tox
     - make pypi-check
-    - make pypi-upload
+    - make pypi-upload -- --repository-url https://test.pypi.org/legacy/
 
 
 publish-package:production:

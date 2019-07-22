@@ -56,6 +56,7 @@ pypi-check:
 	@tox -e pypi-check
 
 
+# prompt_example> make pypi OPTIONS="-- --repository-url https://test.pypi.org/legacy/"
 .PHONY: pypi-upload
 pypi-upload:
-	@tox -e pypi-upload
+	@tox -e pypi-upload $(OPTIONS)
