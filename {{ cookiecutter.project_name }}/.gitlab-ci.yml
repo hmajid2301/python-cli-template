@@ -26,12 +26,18 @@ test:code-formatter:
     - pip install tox
     - make code-formatter-check
 
-
+test:check-manifest:
+  stage: test
+  only:
+    - /^release/.*$/
+  script:
+    - pip install tox
+    - make check-manifest
 
 publish_package:staging:
   stage: pre-publish
   only:
-    - master
+    - /^release/.*$/
   variables:
     TWINE_USERNAME: $PYPI_STAGING_USERNAME
     TWINE_PASSWORD: $PYPI_STAGING_PASSWORD

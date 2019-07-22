@@ -1,13 +1,13 @@
-gitlab\_auto\_mr package
+{{cookiecutter.package_name}} package
 ========================
 
 Submodules
 ----------
 
-gitlab\_auto\_mr.cli module
+{{cookiecutter.package_name}}.cli module
 ---------------------------
 
-.. automodule:: gitlab_auto_mr.cli
+.. automodule:: {{ cookiecutter.package_name }}.cli
     :members:
     :undoc-members:
     :show-inheritance:
@@ -16,7 +16,7 @@ gitlab\_auto\_mr.cli module
 Module contents
 ---------------
 
-.. automodule:: gitlab_auto_mr
+.. automodule:: {{ cookiecutter.package_name }}
     :members:
     :undoc-members:
     :show-inheritance:

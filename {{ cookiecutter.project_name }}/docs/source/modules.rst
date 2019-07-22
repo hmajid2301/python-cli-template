@@ -4,4 +4,4 @@ src
 .. toctree::
    :maxdepth: 4
 
-   gitlab_auto_mr
+   {{ cookiecutter.package_name }}

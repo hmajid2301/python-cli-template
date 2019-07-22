@@ -18,9 +18,9 @@ sys.path.insert(0, os.path.abspath("../../src"))
 
 # -- Project information -----------------------------------------------------
 
-project = "gitlab-auto-mr"
-copyright = "2019, Haseeb majid"
-author = "Haseeb Majid"
+project = "{{ cookiecutter.project_name }}"
+copyright = "2019, {{ cookiecutter.author_name }}"
+author = "{{ cookiecutter.author_name }}"
 
 # The full version, including alpha/beta/rc tags
 release = "0.5.2"
