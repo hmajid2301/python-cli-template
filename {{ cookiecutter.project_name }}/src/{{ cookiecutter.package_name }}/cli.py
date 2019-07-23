@@ -16,5 +16,5 @@ import click
 
 @click.command()
 def cli():
-    """{{ cookiecutter.short_description }}."""
+    """{{ cookiecutter.project_short_description }}."""
     pass
