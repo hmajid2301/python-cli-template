@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     name="{{ cookiecutter.project_name }}",
     version="{{ cookiecutter.version }} ",
-    description="{{ cookiecutter.project_description }}",
+    description="{{ cookiecutter.project_short_description }}",
     long_description=open("README.rst").read(),
     long_description_content_type="text/x-rst",
     author="{{ cookiecutter.author }}",
