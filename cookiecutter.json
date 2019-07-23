@@ -2,7 +2,11 @@
     "author": "{{ cookiecutter.author }}",
     "author_email": "{{ cookiecutter.author_email }}",
     "project_name_title": "",
-    "python_version": "3.7",
+    "python_version": [
+        "3.5",
+        "3.6",
+        "3.7"
+    ],
     "project_name": "{{ cookiecutter.project_name_title.lower().replace(' ', '-') }}",
     "package_name": "{{ cookiecutter.project_name }}",
     "module_name": "{{ cookiecutter.package_name.replace('-', '_') }}",
