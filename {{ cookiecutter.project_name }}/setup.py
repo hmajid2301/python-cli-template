@@ -11,7 +11,7 @@ setup(
     author_email="{{ cookiecutter.author_email }}",
     keywords='{{ cookiecutter.keywords }}',
     license="Apache License",
-    url="{{ cookiecutte.project_git_url }}",
+    url="{{ cookiecutter.project_git_url }}",
     python_requires="~={{ cookiecutter.python_version }}",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
