@@ -7,12 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.0] - 2019-07-23
-### Fixed
-- Missing version in setup.cfg, was hard coded to 0.5.2
+## [0.2.1] - 2019-07-23
+### Added
+- `project_title` which contains the full title with spaces (if required).
+
+### Changed
+- `package_name` to `project_name`, so project_name has `-` and package_name has `_`.
 
 ### Removed
-- Pipfile, will not be using pipenv
+- `module_name` replaced by `package_name`
+
+
+## [0.2.0] - 2019-07-23
+### Fixed
+- Missing version in setup.cfg, was hard coded to 0.5.2.
+
+### Removed
+- Pipfile, will not be using pipenv.
 
 ## [0.1.2] - 2019-07-23
 ### Fixed

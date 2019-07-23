@@ -1,13 +1,13 @@
-{{cookiecutter.package_name}} package
+{{cookiecutter.project_name}} package
 ========================
 
 Submodules
 ----------
 
-{{cookiecutter.package_name}}.cli module
+{{cookiecutter.project_name}}.cli module
 ---------------------------
 
-.. automodule:: {{ cookiecutter.package_name }}.cli
+.. automodule:: {{ cookiecutter.project_name }}.cli
     :members:
     :undoc-members:
     :show-inheritance:
@@ -16,7 +16,7 @@ Submodules
 Module contents
 ---------------
 
-.. automodule:: {{ cookiecutter.package_name }}
+.. automodule:: {{ cookiecutter.project_name }}
     :members:
     :undoc-members:
     :show-inheritance:

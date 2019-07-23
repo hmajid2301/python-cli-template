@@ -2,14 +2,14 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(
-    name="{{ cookiecutter.package_name }}",
+    name="{{ cookiecutter.project_name }}",
     version="{{ cookiecutter.version }} ",
     description="{{ cookiecutter.project_short_description }}",
     long_description=open("README.rst").read(),
     long_description_content_type="text/x-rst",
     author="{{ cookiecutter.author }}",
     author_email="{{ cookiecutter.author_email }}",
-    keywords='{{ cookiecutter.keywords }}',
+    keywords="{{ cookiecutter.keywords }}",
     license="Apache License",
     url="{{ cookiecutter.project_git_url }}",
     python_requires="~={{ cookiecutter.python_version }}",
