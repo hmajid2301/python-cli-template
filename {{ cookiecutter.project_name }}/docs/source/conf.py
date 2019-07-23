@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath("../../src"))
 
 # -- Project information -----------------------------------------------------
 
-project = "{{ cookiecutter.project_name }}"
+project = "{{ cookiecutter.project_name_title }}"
 copyright = "2019, {{ cookiecutter.author_name }}"
 author = "{{ cookiecutter.author_name }}"
 
