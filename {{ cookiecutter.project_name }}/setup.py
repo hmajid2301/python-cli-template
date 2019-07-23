@@ -2,7 +2,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(
-    name="{{ cookiecutter.project_name }}",
+    name="{{ cookiecutter.package_name }}",
     version="{{ cookiecutter.version }} ",
     description="{{ cookiecutter.project_short_description }}",
     long_description=open("README.rst").read(),
@@ -18,7 +18,7 @@ setup(
     zip_safe=False,
     include_package_data=True,
     install_requires=["click>=7.0"],
-    entry_points={"console_scripts": ["{{ cookiecutter.package_name }} = {{ cookiecutter.package_name }}.cli:cli"]},
+    entry_points={"console_scripts": ["{{ cookiecutter.module_name }} = {{ cookiecutter.module_name }}.cli:cli"]},
     classifiers=[
         "Programming Language :: Python",
         "Intended Audience :: Developers",

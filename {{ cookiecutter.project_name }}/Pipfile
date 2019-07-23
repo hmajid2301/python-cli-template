@@ -6,7 +6,9 @@ name = "pypi"
 click = "==7.0"
 
 [dev-packages]
+black = "==19.3b0"
+flake8 = "==3.7.7"
 tox = "==3.9.0"
 
 [requires]
-python_version = {{ cookiecutter.python_version }}
+python_version = "{{ cookiecutter.python_version }}"
