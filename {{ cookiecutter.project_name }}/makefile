@@ -1,7 +1,8 @@
 # prompt_example> make test OPTIONS="-- -s"
-.PHONY: test
-test:
+.PHONY: tests
+tests:
 	@tox -e test $(OPTIONS)
+
 
 .PHONY: lint
 lint:
