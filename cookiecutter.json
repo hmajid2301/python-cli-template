@@ -1,6 +1,6 @@
 {
-    "author": "{{ cookiecutter.author }}",
-    "author_email": "{{ cookiecutter.author_email }}",
+    "author": "",
+    "author_email": "",
     "project_name_title": "",
     "python_version": [
         "3.5",
