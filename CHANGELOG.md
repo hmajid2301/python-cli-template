@@ -7,10 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2019-07-23
+### Fixed
+- Using `package_name` instead of `module_name` in `setup.py`.
+
 ## [0.1.1] - 2019-07-23
 ### Changed
-* README.rst to include sections.
+- README.rst to include sections.
 
 ## [0.1.0] - 2019-07-23
 ### Added
-* Initial Release. 
+- Initial Release. 
