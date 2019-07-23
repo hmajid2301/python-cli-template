@@ -1,4 +1,4 @@
-# Cookie CutterP Python CLI.
+# Cookie Cutter Python CLI.
 
 A Cookie Cutter template for creating Python CLI scripts. 
 
@@ -24,3 +24,19 @@ pipenv will start to build your virtualenv and install your dependencies (includ
 pip install pipenv
 pipenv install --dev
 ```
+
+## Libraries
+
+This template comes with the following libraries/packages ready to use.
+
+- GitLab CI
+- Black
+- Flake8
+- Docker
+- Pipenv
+- Pytest
+- Sphinx
+
+## Changelog
+
+You can find the [changelog here](https://gitlab.com/hmajid2301/python-cli-cookiecutter/blob/master/CHANGELOG.md).
