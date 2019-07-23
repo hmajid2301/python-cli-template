@@ -6,11 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-### Changed
-- `Pipfile` includes black and flake8 as dev dependencies.
 
+## [0.2.0] - 2019-07-23
 ### Fixed
-- Python version needs to be in quotes ("") within the `Pipfile`.
+- Missing version in setup.cfg, was hard coded to 0.5.2
+
+### Removed
+- Pipfile, will not be using pipenv
 
 ## [0.1.2] - 2019-07-23
 ### Fixed
