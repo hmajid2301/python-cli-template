@@ -7,7 +7,7 @@ setup(
     description="{{ cookiecutter.project_description }}",
     long_description=open("README.rst").read(),
     long_description_content_type="text/x-rst",
-    author="{{ cookiecutter.project_author }}",
+    author="{{ cookiecutter.author }}",
     author_email="{{ cookiecutter.author_email }}",
     keywords='{{ cookiecutter.keywords }}',
     license="Apache License",
