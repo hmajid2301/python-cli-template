@@ -18,7 +18,7 @@ setup(
     zip_safe=False,
     include_package_data=True,
     install_requires=["click>=7.0"],
-    entry_points={"console_scripts": ["{{ cookietcutter.package_name }} = {{ cookiecutter.package_name }}.cli:cli"]},
+    entry_points={"console_scripts": ["{{ cookiecutter.package_name }} = {{ cookiecutter.package_name }}.cli:cli"]},
     classifiers=[
         "Programming Language :: Python",
         "Intended Audience :: Developers",
