@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.2] - 2019-07-24
+### Changed
+- `code-formatter` to include `{posargs}` so we can use it to format our code, and also to check it in the same target.
+
+### Removed
+- `code-formatter-check` target in tox.
+
 ## [0.2.1] - 2019-07-23
 ### Added
 - `project_title` which contains the full title with spaces (if required).
