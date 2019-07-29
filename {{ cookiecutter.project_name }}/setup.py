@@ -2,7 +2,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(
-    name="{{ cookiecutter.project_name }}",
+    name="{{ cookiecutter.package_name }}",
     version="{{ cookiecutter.version }} ",
     description="{{ cookiecutter.project_short_description }}",
     long_description=open("README.rst").read(),

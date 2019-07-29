@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2019-07-29
+### Changed
+- `package_name` is now `module_name` as it's more obvious what it is.
+- `project_name` is not `package_name`.
+
 ## [0.2.2] - 2019-07-24
 ### Changed
 - `code-formatter` to include `{posargs}` so we can use it to format our code, and also to check it in the same target.
