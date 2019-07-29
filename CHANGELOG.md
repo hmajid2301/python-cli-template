@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.1] - 2019-07-29
+### Changed
+- `project_title` is not `project_name` to be more consistent with other names.
+
+### Fixed
+- `module_name` was using `project_name` instead of `package_name`.
+
 ## [0.3.0] - 2019-07-29
 ### Changed
 - `package_name` is now `module_name` as it's more obvious what it is.

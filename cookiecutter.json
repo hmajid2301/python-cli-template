@@ -6,9 +6,9 @@
         "3.6",
         "3.5"
     ],
-    "project_title": "",
-    "package_name": "{{ cookiecutter.project_title.lower().replace(' ', '_') }}",
-    "module_name": "{{ cookiecutter.project_name.lower().replace('-', '_') }}",
+    "project_name": "",
+    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "module_name": "{{ cookiecutter.package_name.lower().replace('-', '_') }}",
     "version": "0.1.0",
     "project_description": "",
     "project_short_description": "",
