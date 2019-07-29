@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.2] - 2019-07-29
+### Fixed
+- Some cookiecutter variables were still using `project_title` instead of `project_name`.
+
 ## [0.3.1] - 2019-07-29
 ### Changed
 - `project_title` is not `project_name` to be more consistent with other names.
