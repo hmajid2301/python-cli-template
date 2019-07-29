@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0] - 2019-07-29
+### Changed
+- Main folder now uses `package_name` and src folder uses `module_name`.
+
 ## [0.3.2] - 2019-07-29
 ### Fixed
 - Some cookiecutter variables were still using `project_title` instead of `project_name`.
