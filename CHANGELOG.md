@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.1] - 2020-02-23
+### Removed
+- Variables from `.gitlab-ci.yml` file, use predefined variables in Gitlab CI.
+
 ## [0.4.0] - 2019-07-29
 ### Changed
 - Main folder now uses `package_name` and src folder uses `module_name`.
