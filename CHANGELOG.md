@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.1] - 2020-02-29
+### Fixed
+- Missing `makefile` in `src` folder.
+
 ## [0.5.0] - 2020-02-29
 ### Added
 - Post generation hook which creates git commit and virtualenv.
@@ -89,15 +93,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial Release. 
 
-[0.5.0]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/compare/release%2F0.4.1...release%2F0.5.0
-[0.4.1]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/compare/release%2F0.4.0...release%2F0.4.1
-[0.4.0]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/compare/release%2F0.3.2...release%2F0.4.0
-[0.3.2]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/compare/release%2F0.3.1...release%2F0.3.2
-[0.3.1]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/compare/release%2F0.3.0...release%2F0.3.1
-[0.3.0]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/compare/release%2F0.2.2...release%2F0.3.0
-[0.2.2]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/compare/release%2F0.2.1...release%2F0.2.2
-[0.2.1]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/compare/release%2F0.2.0...release%2F0.2.1
-[0.2.0]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/compare/release%2F0.1.2...release%2F0.2.0
-[0.1.2]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/compare/release%2F0.1.1...release%2F0.1.2
-[0.1.1]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/compare/release%2F0.1.0...release%2F0.1.1
-[0.1.0]: https://gitlab.com/hmajid2301/python-cli-cookiecutter/-/tags/release%2F0.1.0
+[0.5.1]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.5.0...release%2F0.5.1
+[0.5.0]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.4.1...release%2F0.5.0
+[0.4.1]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.4.0...release%2F0.4.1
+[0.4.0]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.3.2...release%2F0.4.0
+[0.3.2]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.3.1...release%2F0.3.2
+[0.3.1]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.3.0...release%2F0.3.1
+[0.3.0]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.2.2...release%2F0.3.0
+[0.2.2]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.2.1...release%2F0.2.2
+[0.2.1]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.2.0...release%2F0.2.1
+[0.2.0]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.1.2...release%2F0.2.0
+[0.1.2]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.1.1...release%2F0.1.2
+[0.1.1]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.1.0...release%2F0.1.1
+[0.1.0]: https://gitlab.com/hmajid2301/python-cli-template/-/tags/release%2F0.1.0
