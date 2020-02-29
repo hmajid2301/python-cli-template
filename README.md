@@ -17,16 +17,6 @@ cookiecutter git@gitlab.com:hmajid2301/python-cli-cookiecutter.git
 cookiecutter https://gitlab.com/hmajid2301/python-cli-cookiecutter.git
 ```
 
-Then install virtualenv (globally) if you need to, so we can create a virtualenv and install all of our python dependencies.
-Then install the package locally
-
-```bash
-pip install virtualenv # Install virtualenv
-virtualenv .venv # Create virtualenv
-pip install -r requirements.txt # Install dependencies
-pip install -e . # Install package locally
-```
-
 ## Libraries
 
 This template comes with the following libraries/packages ready to use.

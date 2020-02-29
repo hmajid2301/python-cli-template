@@ -2,9 +2,9 @@
     "author": "",
     "author_email": "",
     "python_version": [
+        "3.8",
         "3.7",
-        "3.6",
-        "3.5"
+        "3.6"
     ],
     "project_name": "",
     "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
