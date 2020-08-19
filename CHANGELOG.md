@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.2] - 2020-08-19
+### Added
+- Unit tests test python 3.6, 3.7 and 3.8.
+
+### Changed
+- Filename from `makefile` to `Makefile`.
+- Changed `code-formatter` to `format`.
+
 ## [0.5.1] - 2020-02-29
 ### Fixed
 - Missing `makefile` in `src` folder.
@@ -93,6 +101,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial Release. 
 
+[Unreleased]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.5.2...master
+[0.5.2]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.5.1...release%2F0.5.2
 [0.5.1]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.5.0...release%2F0.5.1
 [0.5.0]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.4.1...release%2F0.5.0
 [0.4.1]: https://gitlab.com/hmajid2301/python-cli-template/-/compare/release%2F0.4.0...release%2F0.4.1

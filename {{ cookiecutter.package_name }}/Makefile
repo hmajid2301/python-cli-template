@@ -11,13 +11,13 @@ install-venv:
 lint:
 	@tox -e lint
 
-.PHONY: code-formatter
-code-formatter:
-	@tox -e code-formatter
+.PHONY: format
+format:
+	@tox -e format
 
-.PHONY: code-formatter-check
-code-formatter-check:
-	@tox -e code-formatter -- --check
+.PHONY: format-check
+format-check:
+	@tox -e format -- --check
 
 # prompt_example> make bumpversion OPTIONS="-- --allow-dirty patch"
 .PHONY: bumpversion

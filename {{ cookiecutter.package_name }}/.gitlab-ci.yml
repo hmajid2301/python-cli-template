@@ -16,17 +16,39 @@ test:lint:
     - pip install tox
     - make lint
 
-test:code-formatter:
+test:format:
   stage: test
   script:
     - pip install tox
-    - make code-formatter-check
+    - make format-check
 
-test:unit-tests:
+.test:unit-tests:
   stage: test
-  script:
+  except:
+    - master
+  before_script:
     - pip install tox
-    - make tests
+
+test:unit-tests:py36:
+  stage: test
+  image: python:3.6
+  extends: ".test:unit-tests"
+  script:
+    - make tests PY=py36
+
+test:unit-tests:py37:
+  stage: test
+  image: python:3.7
+  extends: ".test:unit-tests"
+  script:
+    - make tests PY=py37
+
+test:unit-tests:py38:
+  stage: test
+  image: python:3.8
+  extends: ".test:unit-tests"
+  script:
+    - make tests PY=py38
 
 test:check-manifest:
   stage: test
